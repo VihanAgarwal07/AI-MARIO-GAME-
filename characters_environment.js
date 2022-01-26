@@ -73,7 +73,7 @@ console.log(gameConfig.status)
     textAlign(CENTER);
     text("Press the 'Start Your Adventure' button to Start the Game", gameConfig.screenX/2, gameConfig.screenY/2);
     textSize(40);
-    document.getElementById("Status").innerHTML="Game has started";
+    document.getElementById("Status").innerHTML="Game is loading";
     stroke(255);
     strokeWeight(7);
     noFill();
